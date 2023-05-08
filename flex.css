@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+}
+ul li{
+    float: left;
+    margin-left: 40px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    align-items: start;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -250px;
+}
+#product1{
+    height: 130px;
+    width: 100px;
+    border-style: outset;
+}
+.content{
+    margin-top: 500px;
+}
+.button{
+    height: 75px;
+    width: 100%;
+    justify-content: space-between;
+}
+.bottom-images{
+    position: relative;
+    top: 250px;
+    margin-left: 240px;
+}
+
+
+.btn{
+    background-color: yellow;
+
+}
